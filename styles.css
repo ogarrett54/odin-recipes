@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white
+}
+
+.site-title {
+    text-align: center;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-recipe-preview {
+    width: 33%;
+    min-width: 300px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+    background-color:antiquewhite;
+    margin: 5px;
+}
+
+.home-recipe-image {
+    height: 300px;
+    width: auto;
+}
+
+.home-recipe-link > a {
+    color: black;
+    text-decoration: none;
+}
